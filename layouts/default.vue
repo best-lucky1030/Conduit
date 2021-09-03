@@ -29,7 +29,7 @@ export default {
     box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.4);
     z-index: 999;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: block
   }
 </style>
