@@ -37,7 +37,12 @@
 </template>
 
 <script>
+import Banner from '@/components/Banner';
 export default {
+
+  components: {
+    Banner,
+  },
   data() {
     return {
       tags: [],
