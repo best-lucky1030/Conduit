@@ -39,5 +39,9 @@ function getUserFromLocalStorage() {
 }
 
 function setAxiosAuthHeader(user) {
-
+  if (user && user.token) {
+    axios.defaults.headers.common['Authorization'] = `Token ${user.token}`;
+  } else {
+    delete axios.defaults.headers.common['Authorization'];
+  }
 }

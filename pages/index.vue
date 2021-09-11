@@ -32,16 +32,22 @@
         </div>
 
       </div>
+
+      <div class="footer">
+        <img src="https://static.productionready.io/images/smiley-cyrus.jpg" class="homeBtn" />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Banner from '@/components/Banner';
+import Feed from '@/components/Feed';
 export default {
 
   components: {
     Banner,
+    Feed,
   },
   data() {
     return {
@@ -53,3 +59,18 @@ export default {
   },
 }
 </script>
+
+<style>
+
+.footer{
+  position: static;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+}
+
+.homeBtn {
+  display: flex;
+  margin: auto;
+}
+</style>
